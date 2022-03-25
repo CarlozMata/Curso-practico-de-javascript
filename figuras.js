@@ -77,3 +77,37 @@ function areaCirculo(radio){
 //console.log("El area del circulo es de: " + areaCirculo + "cm^2");
 
 console.groupEnd();
+
+///////////////////////////////////////////////////////////////////////////////
+
+console.group("Triangulo Isoceles");
+
+function perimetroTrianguloIsoceles(lado1, lado2, ladoBase) {
+    if (lado1 != lado2) {
+        console.error("Los lados de a y b no son iguales");
+    }
+    else {
+        return lado1 + lado2 + ladoBase;
+    }
+}
+
+function alturaTrianguloIsoceles(trianguloGrandeLadoA, trianguloGrandeLadoB, trianguloGrandeLadoBase) {
+    if (trianguloGrandeLadoA != trianguloGrandeLadoB)
+    {
+        console.error("Los lados a y b no son iguales");
+    } else {
+        const trianguloPequenoLadoB = trianguloGrandeLadoBase / 2;
+        const trianguloPequenoLadoBase = trianguloGrandeLadoA;
+
+        const trianguloPequenoLadoBCuadrado = trianguloPequenoLadoB * trianguloPequenoLadoB;
+        const trianguloPequenoLadoBaseCuadrado = trianguloPequenoLadoBase * trianguloPequenoLadoBase;
+
+        const trianguloPequenoLadoA = Math.sqrt(trianguloPequenoLadoBaseCuadrado - trianguloPequenoLadoBCuadrado);
+
+        const trianguloGrandeAltura = trianguloPequenoLadoA;
+        return trianguloGrandeAltura;
+            }
+    }
+
+
+console.groupEnd();
