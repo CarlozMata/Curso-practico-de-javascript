@@ -7,3 +7,10 @@ Curso con el Profesor Juan David Castro
 - Segundo paso: Implementar las formulas con JavaScript.
 - Tercer paso: Crear funciones 
 - Cuarto paso: Integrar JS con HTML.
+
+## Taller #2: Porcentajes y Descuentos
+
+- Primer paso:Definir las formulas
+- Segundo paso: Implementar la forumla en Javascript
+- Tercer paso: Crear funciones
+- Cuarto paso: Integrar JS con HTML
