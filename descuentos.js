@@ -1,6 +1,8 @@
 //const precioOriginal = 120;
 //const descuento = 18;
 
+const coupons = ["carlos", "mata", "carlozmata"]
+
 function calcularPrecioConDescuento(precio, descuento) {
     const porcentajePrecioConDescuento = 100 - descuento;
     const precioConDescuento = (precio * porcentajePrecioConDescuento) / 100;
