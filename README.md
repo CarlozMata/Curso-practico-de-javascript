@@ -21,3 +21,10 @@ Curso con el Profesor Juan David Castro
 - Segundo paso: Implementar la formulas en JavaScript
 - Tercer paso: Crear funciones
 - Cuarto paso: Integrar JS con HTML
+
+## Taller #4:
+
+- Primer paso: Definir las formulas.
+- Segundo paso: Implementar la formulas en JavaScript.
+- Tercer paso: Crear funciones.
+- Cuarto paso: Integrar JS con HTML.
